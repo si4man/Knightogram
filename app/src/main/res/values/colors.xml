@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_background">#1C1C1E</color>
+    <color name="toolbar_background">#2C2C2E</color>
+    <color name="card_background_start">#2C2C2E</color>
+    <color name="card_background_end">#1C1C1E</color>
+    <color name="avatar_background">#34C759</color>
+    <color name="primary_text_color">#FFFFFF</color>
+    <color name="secondary_text_color">#99EBEBF5</color>
+    <color name="tertiary_text_color">#4DEBEBF5</color>
+    <color name="badge_text_color">#FFFFFF</color>
+    <color name="card_stroke_color">#38383A</color>
+    <color name="badge_gradient_start">#34C759</color>
+    <color name="badge_gradient_end">#34C759</color>
+</resources>
