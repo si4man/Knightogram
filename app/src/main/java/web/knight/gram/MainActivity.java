@@ -80,15 +80,7 @@ public class MainActivity extends AppCompatActivity {
             @SuppressWarnings("unchecked")
             Map<String, Object> item = (Map<String, Object>) parent.getItemAtPosition(position);
             String name = String.valueOf(item.get("chat_name"));
-
-            View layout = getLayoutInflater().inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.custom_toast_container));
-            TextView text = (TextView) layout.findViewById(R.id.toast_text);
-            text.setText("Opened dialog with " + name);
-
-            Toast toast = new Toast(getApplicationContext());
-            toast.setDuration(Toast.LENGTH_SHORT);
-            toast.setView(layout);
-            toast.show();
+            Toast.makeText(MainActivity.this, "Opened dialog with " + name, Toast.LENGTH_SHORT).show();
         });
     }
 }
